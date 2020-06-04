@@ -15,9 +15,9 @@
 /**
  * Adds a random greeting to the page.
  */
-function addRandomGreeting() {
+function sayTheirName() {
   const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
+      ['George Floyd', 'Breonna Taylor', 'Ahmaud Arbery', 'Tyrique Hudson'];
 
   // Pick a random greeting.
   const greeting = greetings[Math.floor(Math.random() * greetings.length)];
