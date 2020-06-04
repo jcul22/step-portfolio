@@ -1,10 +1,27 @@
-#content {
+#content{
   margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 30px;
+  margin-right: 0px;
+  width: 1800px; 
+}
+
+#content-centered {
+  margin-top: 0px;
+  margin-left: 1000px;
+  margin-right: 0px;
   width: 650px; 
   background-color: black;
 }
+#content-left{
+    margin-left:100px;
+    width:600px;
+    float:left  
+}
+#content-right{
+    margin-right: 100px;
+    width: 600px;
+    float:right; 
+} 
 
 #greeting-container {
   margin-top: 20px;
