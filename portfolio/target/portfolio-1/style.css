@@ -12,12 +12,12 @@
   width: 650px; 
   background-color: black;
 }
-#content-left{
+#pictures-left-aligned{
     margin-left:100px;
     width:600px;
     float:left  
 }
-#content-right{
+#pictures-right-aligned{
     margin-right: 100px;
     width: 600px;
     float:right; 
