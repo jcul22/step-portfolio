@@ -3,7 +3,9 @@
   margin-right: auto;
   width: 650px;
 }
-
+#body{
+    background-image: url("background.jpg"); 
+}
 #greeting-container {
   margin-top: 20px;
 }
