@@ -10,12 +10,11 @@ function sayTheirName() {
   namesContainer.innerText = name;
 } 
 function getComments(){
-    fetch('/data').then((comments) => {
-        // const listComments = document.getElementById('comments-container'); 
-        // listComments.innerHTML = '';
-        // listComments.appendChild(
-        //     createListElement('David: ' + comments));
-        console.log(comments);
+    fetch('/data').then(response => response.json()).then((comments) => {
+        const listComments = document.getElementById('comments-container'); 
+        listComments.innerHTML = '';
+        listComments.appendChild(
+            createListElement('David: ' + comments));
     });
 } 
 function createListElement(text) { 
