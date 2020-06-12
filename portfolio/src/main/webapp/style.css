@@ -1,11 +1,43 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+
+body{
+    background-image: url("blm.jpg");
 }
-#body{
-    background-image: url("background.jpg"); 
+#content{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 1800px; 
 }
+
+#content-centered {
+  margin-top: 0px;
+  margin-left: 1000px;
+  margin-right: 0px;
+  width: 650px; 
+  background-color: black;
+}
+#pictures-left-aligned{
+    margin-left:100px;
+    width:600px;
+    float:left  
+}
+#pictures-right-aligned{
+    margin-right: 100px;
+    width: 600px;
+    float:right; 
+} 
+
 #greeting-container {
   margin-top: 20px;
+}
+
+#gallery { 
+  margin-top:30px; 
+  margin-right:30px;
+}
+
+img.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
